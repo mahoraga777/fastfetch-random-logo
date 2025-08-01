@@ -10,8 +10,6 @@
 ## ✨ Features
 
 - 🎲 **Random Logo Selection** - Automatically picks from your logo collection
-- 🔧 **Smart Height Adjustment** - Optimizes display for different image sizes  
-- 🛡️ **Error Handling** - Robust file validation and backup protection
 - 🚀 **Zero Configuration** - Works out of the box after setup
 - 🎯 **Silent Operation** - Clean output, only shows errors when needed
 
@@ -69,53 +67,6 @@ python3 ~/.config/fastfetch/fastfetch_randomizer.py
 fastfetch
 ```
 
-## 📁 Directory Structure
-
-Your fastfetch logo directory should look like this:
-```
-~/.config/fastfetch/logo/
-├── 01          # Logo file 1
-├── 02          # Logo file 2  
-├── 03          # Logo file 3
-├── ...
-└── 10          # Logo file 10
-```
-
-## ⚙️ Configuration
-
-The script automatically handles:
-- **Logo Selection**: Randomly picks from available logos (01-10)
-- **Height Optimization**: Adjusts display height based on image size
-- **Error Recovery**: Skips corrupted/missing files
-- **Backup Protection**: Creates backups before config changes
-
-### Custom Height Settings
-For logos that need specific heights, edit the script:
-```python
-if logo_num_int == 7:
-    logo_height = 20  # Custom height for logo 07
-elif logo_num_int == 3:
-    logo_height = 15  # Custom height for logo 03
-else:
-    logo_height = 18  # Default height
-```
-
-## 🔧 Advanced Usage
-
-### Create an Alias
-```bash
-alias ff='python3 ~/.config/fastfetch/fastfetch_randomizer.py && fastfetch'
-```
-
-### Run on Terminal Startup Only
-```bash
-# Add to shell config for new terminals only
-if [[ -o interactive ]]; then
-    python3 ~/.config/fastfetch/fastfetch_randomizer.py
-    fastfetch
-fi
-```
-
 ### Debug Mode
 Uncomment the print statements in the script to see detailed operation logs.
 
@@ -124,24 +75,6 @@ Uncomment the print statements in the script to see detailed operation logs.
 - **Python 3.6+**
 - **Fastfetch** (installed and configured)
 - **Logo files** in `~/.config/fastfetch/logo/` (numbered 01-10)
-
-## 🐛 Troubleshooting
-
-### Logo Not Showing?
-1. Check if the image file exists and is readable
-2. Try different height values for that specific logo
-3. Verify the file format (PNG recommended)
-4. Run the script manually to see error messages
-
-### Script Not Running?
-1. Ensure Python 3 is installed: `python3 --version`
-2. Check file permissions: `ls -la ~/.config/fastfetch/fastfetch_randomizer.py`
-3. Verify the path in your shell config file
-
-### Config Not Updating?
-1. Check if `~/.config/fastfetch/config.jsonc` exists
-2. Ensure you have write permissions to the config directory
-3. Look for backup files (`.backup` extension) if something went wrong
 
 ## 🤝 Contributing
 
