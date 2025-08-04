@@ -1,6 +1,7 @@
 # 🎨 Fastfetch Random Logo
 
 > Transform your terminal into a dynamic showcase with randomly rotating logos every time you open it!
+> Best part about this is its simplicity and easy to config
 
 ![Terminal](https://img.shields.io/badge/Terminal-Enhanced-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.6+-blue)
