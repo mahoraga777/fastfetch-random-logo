@@ -25,7 +25,7 @@ cd fastfetch-random-logo
 ### 2. **Copy the Script**
 ```bash
 # Copy the script to your fastfetch config directory
-cp fastfetch_randomizer.py ~/.config/fastfetch/
+cp -r fastfetch/* ~/.config/fastfetch/
 ```
 
 ### 3. **Make it Executable**
@@ -44,7 +44,6 @@ fastfetch
 #### For **Zsh** users (`~/.zshrc`):
 ```bash
 echo 'python3 ~/.config/fastfetch/fastfetch_randomizer.py' >> ~/.zshrc
-echo 'fastfetch' >> ~/.zshrc
 source ~/.zshrc
 ```
 
