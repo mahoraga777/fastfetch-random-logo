@@ -50,25 +50,27 @@ source ~/.zshrc
 #### For **Bash** users (`~/.bashrc`):
 ```bash
 echo 'python3 ~/.config/fastfetch/fastfetch_randomizer.py' >> ~/.bashrc
-echo 'fastfetch' >> ~/.bashrc
 source ~/.bashrc
 ```
 
 #### For **Fish** users (`~/.config/fish/config.fish`):
 ```bash
 echo 'python3 ~/.config/fastfetch/fastfetch_randomizer.py' >> ~/.config/fish/config.fish
-echo 'fastfetch' >> ~/.config/fish/config.fish
+
 ```
 
 #### Manual Setup:
 Add these lines to your shell's config file:
 ```bash
 python3 ~/.config/fastfetch/fastfetch_randomizer.py
-fastfetch
 ```
+## 🖌️ Customization
 
-### Debug Mode
-Uncomment the print statements in the script to see detailed operation logs.
+You can add any logo inside `~/.config/fastfetch/logo` and assign it a new number.  
+Then, increase the number from 10 to any desired value in the Python code at **line 11**.  
+
+> Note: The process isn’t simplified, but you should be able to manage it :) .
+
 
 ## 🛠️ Requirements
 
