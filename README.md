@@ -36,7 +36,6 @@ chmod +x ~/.config/fastfetch/fastfetch_randomizer.py
 ### 4. **Test the Script**
 ```bash
 python3 ~/.config/fastfetch/fastfetch_randomizer.py
-fastfetch
 ```
 
 ### 5. **Auto-Run Setup** (Choose your shell)
