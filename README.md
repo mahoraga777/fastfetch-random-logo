@@ -16,6 +16,16 @@
 
 ## 🚀 Quick Setup
 
+### 0. **Download Fastfetch**
+You can simpilly run for fedora or arch and sorry i never used debian or ubunto 
+```bash
+# for fedora
+sudo dnf install fastfetch
+# for arch based distro
+sudo pacman -Syu fastfetch
+```
+
+
 ### 1. **Clone the Repository**
 ```bash
 git clone https://github.com/mahoraga777/fastfetch-random-logo.git
