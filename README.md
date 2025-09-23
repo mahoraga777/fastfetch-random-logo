@@ -25,7 +25,9 @@ cd fastfetch-random-logo
 ### 2. **Copy the Script**
 ```bash
 # Copy the script to your fastfetch config directory
+mkdir -p ~/.config/fastfetch
 cp -r fastfetch/* ~/.config/fastfetch/
+
 ```
 
 ### 3. **Make it Executable**
