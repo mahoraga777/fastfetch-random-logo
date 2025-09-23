@@ -22,7 +22,7 @@ You can simpilly run for fedora or arch and sorry i never used debian or ubunto
 # for fedora
 sudo dnf install fastfetch
 # for arch based distro
-sudo pacman -Syu fastfetch
+sudo pacman -S fastfetch
 ```
 
 
