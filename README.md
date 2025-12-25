@@ -3,6 +3,8 @@
 > Transform your terminal into a dynamic showcase with randomly rotating logos every time you open it!
 > Best part about this is its simplicity and easy to config
 
+![Screenshot](image.png)
+
 ![Terminal](https://img.shields.io/badge/Terminal-Enhanced-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.6+-blue)
 ![Fastfetch](https://img.shields.io/badge/Fastfetch-Compatible-orange)
